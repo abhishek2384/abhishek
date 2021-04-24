@@ -1,0 +1,262 @@
+*{
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.dot{
+    width: 3%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid white;
+    border-style: dotted;
+    margin:0px 47% 50px;
+}
+
+body{
+    background-image: url("26293.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    height: 100vh;
+   
+}
+
+.navbar{
+    display: block;
+    background-color: #333;
+    overflow: hidden;
+    height: 7vh;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar ul{
+    list-style: none;
+    margin-right: 2%;
+}
+
+.navbar li {
+    display: inline;
+    float: right;
+    padding-top: .5%;
+    padding-right: 2%;
+    background-color: #333;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover{
+    color: rgb(223, 116, 255);
+}
+
+.navbar a:active{
+    color: rgb(248, 96, 240);
+}
+
+.navbar .logo{
+    float: left;
+    width: 100px;
+    padding-top: .5%;
+    margin-left: 2%;
+}
+
+.content {
+ margin: 10vh 10vw 10vh 10vw;
+ color:#fff;
+ 
+}
+
+.content h1{
+    font-size: 4rem;
+    text-indent: 3px;
+}
+
+.content h4{
+    font-weight:500;
+    margin-bottom: 3%;
+}
+
+.content a{
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 40px;
+    border-radius: 50px;
+    padding:  3px 10px ;
+    color:white;
+    font-weight:400;
+    text-transform: uppercase;
+}
+
+
+.btn{
+    margin-top: 30px;
+}
+
+.content a:hover{
+    color: rgb(207, 7, 247);
+    cursor:grab;
+}
+
+.mid{
+    height: 100vh;
+}
+
+.midhead{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 20vh;
+    color: white;
+    text-transform: uppercase;
+}
+
+.card{
+    display:flex; 
+    margin: 0% 5rem;
+    justify-content:space-between;
+}
+
+.card h1{
+    color:blanchedalmond;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card1 , .card2 , .card3{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0.123);
+}
+
+.card1:hover , .card2:hover , .card3:hover{
+    cursor: grab;
+    background-color: rgba(255, 255, 255, 0.445);
+    color: black;
+    font-weight: 600;
+}
+
+.card .size{
+    font-size: 2rem;
+    margin-bottom: 2rem ;
+}
+
+.about{
+    display:flex;
+    height: 70vh;
+    justify-content:center;
+    box-sizing: border-box;
+}
+
+.about-text , .about-form{
+    height: 50vh;
+    width:50vw;
+}
+
+.about h3{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.about p{
+    color: white;
+    text-align:left;
+    box-sizing: border-box;
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+
+.about-form input[type=text]{
+    width: 50%;
+    padding: 12px 20% ;
+    margin:7% 10%;
+    margin-right: 0%;
+    box-sizing: border-box;
+}
+
+.about-form input[type=button]{
+    padding: 12px 20px;
+    color:white;
+    background-color: rgb(0, 255, 21);
+    font-weight: 700;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    height: 10vh;
+    margin-top: 0;
+    margin-bottom: 0%;
+}
+
+@media only screen and (max-width: 600px){
+
+    body{
+        width: 100vw;
+    }
+
+    .content h1{
+        font-size: 2.5rem;
+        margin-bottom: 10vh;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
+    .midhead{
+        font-size: 2rem;
+        margin: 10vh;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about{
+        height: 100vh;
+        margin-top: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-text{
+        font-size: 1rem;
+        margin-top: 20vh;
+        padding: 0%;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .about p{
+        text-align: center;
+    }
+
+    .about-form{
+        margin-top: 10vh;
+        text-align: center;
+        width: 100vw;
+    }
+
+}
+
